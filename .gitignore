@@ -1,0 +1,38 @@
+# <<<./ Environment
+.env
+*.env
+.env.local
+
+# <<<./ Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.Python
+
+# <<<./ HuggingFace Cache
+.cache/
+
+# <<<./ Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# <<<./ IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# <<<./ OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# <<<./ Logs
+*.log
+logs/
+

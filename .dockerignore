@@ -1,0 +1,40 @@
+# <<<./  Environment
+.env
+*.env
+
+# <<<./  Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# <<<./  Git
+.git/
+.gitignore
+
+# <<<./  Notebooks
+notebooks/
+
+# <<<./  Sample
+assets/receipts/
+
+# <<<./  HuggingFace Cache
+.cache/
+
+# <<<./  IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# <<<./  OS
+.DS_Store
+Thumbs.db
+
+# <<<./  Logs
+*.log
+logs/
+
+# <<<./  Docs
+README.md
