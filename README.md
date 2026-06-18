@@ -26,12 +26,11 @@ We are a social being by nature, however, the concept of split bill is coined wa
 
 ## Model Research
 
-Three models were evaluated for receipt data extraction:
+Two models were evaluated for receipt data extraction:
 
 | Model | Type | Parameters | Hardware |
 |---|---|---|---|
 | Qwen2-VL 2B Instruct | Local (4-bit quantized) | 2B | NVIDIA RTX 3050 Studio, 4GB VRAM |
-| IBM Granite Vision 3.3 2B | Local (4-bit quantized) | 2B | NVIDIA RTX 3050 Studio, 4GB VRAM |
 | Google Gemini 2.5 Flash | API | Undisclosed (large) | Google Cloud Infrastructure |
 
 ### Why These Models
