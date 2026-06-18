@@ -14,7 +14,7 @@ We are a social being by nature, however, the concept of split bill is coined wa
 |---|---|---|
 | UI | Streamlit | Web app framework |
 | Primary AI | Gemini 2.5 Flash (Google GenAI API) | OCR-free receipt extraction |
-| Local AI | Granite Vision 3.3 2B | OCR-free receipt extraction (offline) |
+| Local AI | Qwen2VL | OCR-free receipt extraction (offline) |
 | Quantization | BitsAndBytes | 4-bit model quantization for consumer GPU |
 | Model Loading | HuggingFace Transformers | Local model inference pipeline |
 | Data Validation | Pydantic v2 | Structured output schemas |
