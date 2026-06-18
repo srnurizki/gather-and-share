@@ -104,6 +104,71 @@ Two models were evaluated for receipt data extraction:
   "total": 11000.0
 }
 ```
+
+---
+
+> ![ncoffee-1.jpeg](https://github.com/srnurizki/gather-and-share/blob/master/assets/receipts/ncoffee-1.jpeg?raw=true)
+
+**Gemini:** File `[ncoffee-1.jpeg]`
+```json
+{
+  "items": [
+    {
+      "name": "Nasi Ayam Siram",
+      "quantity": 1.0,
+      "unit_price": 28000.0,
+      "total_price": 28000.0
+    },
+    {
+      "name": "Americano",
+      "quantity": 1.0,
+      "unit_price": 18000.0,
+      "total_price": 18000.0
+    }
+  ],
+  "subtotal": 46000.0,
+  "additional_charges": [
+    {
+      "label": "PB1",
+      "amount": 4600.0
+    },
+    {
+      "label": "Pembulatan",
+      "amount": 400.0
+    }
+  ],
+  "total": 51000.0
+}
+```
+
+**Qwen:** File `[ncoffee-1.jpeg]`
+```json
+{
+  "items": [
+    {
+      "name": "Nasi Ayam Siram",
+      "quantity": 1.0,
+      "unit_price": 28000.0,
+      "total_price": 28000.0
+    },
+    {
+      "name": "Americano",
+      "quantity": 1.0,
+      "unit_price": 18000.0,
+      "total_price": 18000.0
+    }
+  ],
+  "subtotal": 46000.0,
+  "additional_charges": [
+    {
+      "label": "Charge label as printed",
+      "amount": 1000.0
+    }
+  ],
+  "total": 51000.0
+}
+```
+
 ### Analysis
 
 **Why local 2B models underperformed:**
